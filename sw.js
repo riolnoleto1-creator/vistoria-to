@@ -1,7 +1,7 @@
 // Service worker: guarda o app e a base de km no aparelho (funciona sem internet) e
 // mantém em cache os pedaços do mapa de fundo já vistos. A lista abaixo é preenchida no build.
-const VERSAO = "7154c2ee132f";
-const ARQUIVOS = ["./","./icone-180.png","./icone-192.png","./icone-512.png","./index-BNn1Oy_P.js","./index-bJqwd707.css","./index.html","./logo-dnit.png","./logo-houer-consane.png","./manifest.webmanifest","./maplibre-gl-worker-PS8qfxFK.js","./pacote-to-km.vtpkg"];
+const VERSAO = "921de53511b0";
+const ARQUIVOS = ["./","./eng.traineddata.gz","./error-BTdmRKoB.js","./esm-j-B9qRpW.js","./icone-180.png","./icone-192.png","./icone-512.png","./index-CVbHKQz5.js","./index-D_Mmcyp5.css","./index.html","./logo-dnit.png","./logo-houer-consane.png","./manifest.webmanifest","./maplibre-gl-worker-PS8qfxFK.js","./node.browser-DM9Yb_Ov.js","./node.browser-HQ5SKBOf.js","./ocr-worker.min.js","./pacote-to-km.vtpkg","./sdk-CwjBYXKx.js","./src-DBci7Msx.js","./tesseract-core-simd-lstm.wasm.js"];
 const CACHE_APP = `vistoria-to-app-${VERSAO}`;
 const CACHE_MAPA = 'vistoria-to-mapa';
 const LIMITE_MAPA = 4000;
