@@ -1,7 +1,7 @@
 // Service worker: guarda o app e a base de km no aparelho (funciona sem internet) e
 // mantém em cache os pedaços do mapa de fundo já vistos. A lista abaixo é preenchida no build.
-const VERSAO = "32df68f6c696";
-const ARQUIVOS = ["./","./icone-180.png","./icone-192.png","./icone-512.png","./index-BmOrQMFk.js","./index-CxIMudAk.css","./index.html","./logo-dnit.png","./logo-houer-consane.png","./manifest.webmanifest","./maplibre-gl-worker-PS8qfxFK.js","./pacote-to-km.vtpkg"];
+const VERSAO = "8b0baba05b07";
+const ARQUIVOS = ["./","./icone-180.png","./icone-192.png","./icone-512.png","./index-ClTv76Qf.js","./index-mlsAx4a0.css","./index.html","./logo-dnit.png","./logo-houer-consane.png","./manifest.webmanifest","./maplibre-gl-worker-PS8qfxFK.js","./pacote-to-km.vtpkg"];
 const CACHE_APP = `vistoria-to-app-${VERSAO}`;
 const CACHE_MAPA = 'vistoria-to-mapa';
 const LIMITE_MAPA = 4000;
