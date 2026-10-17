@@ -1,7 +1,7 @@
 // Service worker: guarda o app e a base de km no aparelho (funciona sem internet) e
 // mantém em cache os pedaços do mapa de fundo já vistos. A lista abaixo é preenchida no build.
-const VERSAO = "3ba7eab990b8";
-const ARQUIVOS = ["./","./catalogo-visual.json","./eng.traineddata.gz","./error-BTdmRKoB.js","./esm-j-B9qRpW.js","./icone-180.png","./icone-192.png","./icone-512.png","./index-B5DseDdy.js","./index-DlKWX0Cp.css","./index.html","./logo-dnit.png","./logo-houer-consane.png","./manifest.webmanifest","./maplibre-gl-worker-PS8qfxFK.js","./node.browser-BC4FIHU4.js","./node.browser-HQ5SKBOf.js","./ocr-worker.min.js","./pacote-to-km.vtpkg","./sdk-CJfGFc6J.js","./src-DOJR0iQe.js","./tesseract-core-simd-lstm.wasm.js"];
+const VERSAO = "555d3b0f8a11";
+const ARQUIVOS = ["./","./catalogo-visual.json","./eng.traineddata.gz","./error-BTdmRKoB.js","./esm-j-B9qRpW.js","./icone-180.png","./icone-192.png","./icone-512.png","./index-DlKWX0Cp.css","./index-gug8j9YU.js","./index.html","./logo-dnit.png","./logo-houer-consane.png","./manifest.webmanifest","./maplibre-gl-worker-PS8qfxFK.js","./node.browser-DXUQPkij.js","./node.browser-HQ5SKBOf.js","./ocr-worker.min.js","./pacote-to-km.vtpkg","./sdk-D8zygDgy.js","./src-CyDzdQeE.js","./tesseract-core-simd-lstm.wasm.js"];
 const CACHE_APP = `vistoria-to-app-${VERSAO}`;
 const CACHE_MAPA = 'vistoria-to-mapa';
 const LIMITE_MAPA = 4000;
