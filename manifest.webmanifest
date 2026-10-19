@@ -1,6 +1,6 @@
 {
-  "name": "Vistoria Rodoviária TO",
-  "short_name": "Vistoria TO",
+  "name": "Vistoria BR",
+  "short_name": "Vistoria BR",
   "description": "Vistoria rodoviária com fotos, BR/km e relatório PDF/XLSX, sem internet. Desenvolvedor: Eng. Riol Noleto.",
   "lang": "pt-BR",
   "start_url": "./",
