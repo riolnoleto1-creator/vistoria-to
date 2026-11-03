@@ -1,7 +1,7 @@
 // Service worker: guarda o app e a base de km no aparelho (funciona sem internet) e
 // mantém em cache os pedaços do mapa de fundo já vistos. A lista abaixo é preenchida no build.
-const VERSAO = "14431787d5e5";
-const ARQUIVOS = ["./","./banco-referencias.json","./catalogo-visual.json","./embedder-imagem.tflite","./eng.traineddata.gz","./error-BTdmRKoB.js","./esm-j-B9qRpW.js","./icone-180.png","./icone-192.png","./icone-512.png","./index-CU1vw8wf.js","./index-DhO8--Yw.css","./index.html","./logo-dnit.png","./logo-houer-consane.png","./manifest.webmanifest","./maplibre-gl-worker-PS8qfxFK.js","./node.browser-HQ5SKBOf.js","./node.browser-m6Yfg6Mt.js","./ocr-worker.min.js","./pacote-snv-brasil.vtpkg","./pacote-to-km.vtpkg","./pdf-CmHVEEtb.js","./pdf.worker.min-Dkey6ZUl.mjs","./sdk-C8DKPNVg.js","./src-D8C-4m6E.js","./tesseract-core-simd-lstm.wasm.js","./vision_bundle-CXGcUCDg.js","./vision_wasm_internal.js","./vision_wasm_internal.wasm"];
+const VERSAO = "76168bed9b93";
+const ARQUIVOS = ["./","./banco-referencias.json","./catalogo-visual.json","./embedder-imagem.tflite","./eng.traineddata.gz","./error-BTdmRKoB.js","./esm-j-B9qRpW.js","./icone-180.png","./icone-192.png","./icone-512.png","./index-CvMDOgl2.css","./index-D2Lvx8Cl.js","./index.html","./logo-dnit.png","./logo-houer-consane.png","./manifest.webmanifest","./maplibre-gl-worker-PS8qfxFK.js","./node.browser-HQ5SKBOf.js","./node.browser-Kbf2JlCe.js","./ocr-worker.min.js","./pacote-snv-brasil.vtpkg","./pacote-to-km.vtpkg","./pdf-Dj0QmdxS.js","./pdf.worker.min-Dkey6ZUl.mjs","./sdk-DUbO9J5k.js","./src-BnGnv_oh.js","./tesseract-core-simd-lstm.wasm.js","./vision_bundle-BRwNq90R.js","./vision_wasm_internal.js","./vision_wasm_internal.wasm"];
 const CACHE_APP = `vistoria-to-app-${VERSAO}`;
 const CACHE_MAPA = 'vistoria-to-mapa';
 const LIMITE_MAPA = 4000;
